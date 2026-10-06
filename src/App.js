@@ -1,9 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Example from "./component/example";
+import Reg from "./component/example2";
 
 function App() {
   return (
-    
+    <>
+      <Example />
+      <Reg />
+    </>
   );
 }
 
